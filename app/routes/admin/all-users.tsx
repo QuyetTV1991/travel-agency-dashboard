@@ -1,10 +1,10 @@
 import {Header} from "../../../components";
 
-const AllUser = () => {
+const AllUsers = () => {
     return (
         <main className="dashboard wrapper">
             <Header
-                title="Users"
+                title="Trips Page"
                 description="Check all current users in realtime"
             />
 
@@ -12,4 +12,5 @@ const AllUser = () => {
         </main>
     )
 }
-export default AllUser
+
+export default AllUsers
